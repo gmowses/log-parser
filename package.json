@@ -1,0 +1,52 @@
+{
+  "name": "@gmowses/log-parser",
+  "version": "1.0.0",
+  "description": "Paste raw log lines, auto-detect format (Apache/Nginx, syslog, JSON, Docker), parse into table, highlight errors/warnings, filter by level, copy as JSON. Client-side only.",
+  "author": "Gabriel Mowses <contato@gmowses.cloud> (https://github.com/gmowses)",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmowses/log-parser.git"
+  },
+  "homepage": "https://gmowses.github.io/log-parser",
+  "keywords": [
+    "log",
+    "parser",
+    "devops",
+    "nginx",
+    "syslog",
+    "json",
+    "react",
+    "tailwindcss",
+    "dark-mode",
+    "i18n"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "lucide-react": "^1.7.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.1"
+  }
+}

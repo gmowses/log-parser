@@ -1,0 +1,18 @@
+source:
+  - changed-files:
+      - any-glob-to-any-file: 'src/**'
+
+styles:
+  - changed-files:
+      - any-glob-to-any-file: '**/*.css'
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'vite.config.*'
+          - 'tsconfig.*'
+          - 'package.json'
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**'
